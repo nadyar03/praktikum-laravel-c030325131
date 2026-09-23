@@ -80,22 +80,7 @@ Proyek ini merupakan hasil praktikum mata kuliah Pemrograman Web menggunakan fra
 ## Cara Menjalankan Proyek
 
 ### 1. Clone Repository
+```bash
 git clone https://github.com/nadyar03/praktikum-laravel-C030325131.git
-
-### 2. Masuk ke Folder Proyek
-cd praktikum-laravel-C030325131
-
-### 3. Install Dependency
-composer install
-
-### 4. Konfigurasi Environment
-Salin file `.env.example` menjadi `.env`, kemudian sesuaikan konfigurasi database pada file `.env`.
-
-### 5. Generate Application Key
-php artisan key:generate
-
-### 6. Migrasi Database
-php artisan migrate:fresh --seed
-
 ### 7. Jalankan Aplikasi
 php artisan serve
