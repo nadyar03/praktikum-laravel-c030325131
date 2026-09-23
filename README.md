@@ -77,6 +77,11 @@ Proyek ini merupakan hasil praktikum mata kuliah Pemrograman Web menggunakan fra
 - Git
 - GitHub
 
+## Biodata
+Nama : Nadya Rahmah
+NIM  : C030325131
+Prodi/ Kelas : D3 Teknik Informatika 3D
+
 ## Cara Menjalankan Proyek
 
 ### 1. Clone Repository
