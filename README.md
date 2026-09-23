@@ -84,3 +84,7 @@ Proyek ini merupakan hasil praktikum mata kuliah Pemrograman Web menggunakan fra
 git clone https://github.com/nadyar03/praktikum-laravel-C030325131.git
 ### 7. Jalankan Aplikasi
 php artisan serve
+
+## Update Praktikum 6
+
+Repository telah diperbarui untuk mempraktikkan proses push dan pull menggunakan Git.
