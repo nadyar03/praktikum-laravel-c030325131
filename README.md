@@ -63,3 +63,39 @@ Proyek praktikum Laravel telah diperbarui menggunakan Git dan GitHub.
 ## Teknologi
 
 Proyek ini menggunakan Laravel, PHP, MySQL/MariaDB, Composer, Git, dan GitHub.
+
+# Praktikum Laravel
+
+## Deskripsi
+Proyek ini merupakan hasil praktikum mata kuliah Pemrograman Web menggunakan framework Laravel. Proyek ini digunakan untuk mempelajari pembuatan dan pengembangan aplikasi web menggunakan Laravel.
+
+## Teknologi
+- Laravel
+- PHP
+- MySQL/MariaDB
+- Composer
+- Git
+- GitHub
+
+## Cara Menjalankan Proyek
+
+### 1. Clone Repository
+git clone https://github.com/nadyar03/praktikum-laravel-C030325131.git
+
+### 2. Masuk ke Folder Proyek
+cd praktikum-laravel-C030325131
+
+### 3. Install Dependency
+composer install
+
+### 4. Konfigurasi Environment
+Salin file `.env.example` menjadi `.env`, kemudian sesuaikan konfigurasi database pada file `.env`.
+
+### 5. Generate Application Key
+php artisan key:generate
+
+### 6. Migrasi Database
+php artisan migrate:fresh --seed
+
+### 7. Jalankan Aplikasi
+php artisan serve
